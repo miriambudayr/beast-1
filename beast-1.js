@@ -1,4 +1,4 @@
 function runWithDebugger (callback, args) {
   debugger;
-  ourFunction.apply(null, args);
+  callback.apply(null, args);
 }
